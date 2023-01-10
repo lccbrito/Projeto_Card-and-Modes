@@ -26,7 +26,6 @@ changeMode.addEventListener('change', function () {
 
 function colorR() {
   document.documentElement.style.setProperty("--corAtual", 'rgb(255, 0, 0)')
-  // document.documentElement.style.setProperty("--corAtualFundo", 'rgba(255, 0, 0, .15)')
   document.getElementById('img').src = "imgs/red.png"
 }
 
@@ -37,12 +36,10 @@ function colorL() {
 
 function colorLB() {
   document.documentElement.style.setProperty("--corAtual", 'rgb(80, 173, 198)')
-  // document.documentElement.style.setProperty("--corAtualFundo", 'rgba(80, 173, 198, .15)')
   document.getElementById('img').src = "imgs/Lightblue.png"
 }
 
 function colorB() {
   document.documentElement.style.setProperty("--corAtual", 'rgb(2, 49, 159)')
-  // document.documentElement.style.setProperty("--corAtualFundo", 'rgb(2, 49, 159, .2)')
   document.getElementById('img').src = "imgs/blue.png"
 }
